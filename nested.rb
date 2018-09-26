@@ -129,5 +129,8 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+     programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+     thirdArray = programmer_hash.to_a
+     return Hash[thirdArray[2]]]
 
 end
